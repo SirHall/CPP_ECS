@@ -7,4 +7,7 @@ CMakeFiles/a.dir/src/main.cpp.o
  /home/sirhall/Documents/GitRepos/CPP_ECS/src/entity/Entity.cpp
  /home/sirhall/Documents/GitRepos/CPP_ECS/src/entity/Entity.hpp
  /home/sirhall/Documents/GitRepos/CPP_ECS/src/main.cpp
+ /home/sirhall/Documents/GitRepos/CPP_ECS/src/simulation/Simulation.cpp
+ /home/sirhall/Documents/GitRepos/CPP_ECS/src/simulation/Simulation.hpp
  /home/sirhall/Documents/GitRepos/CPP_ECS/src/system/CompGroup.hpp
+ /home/sirhall/Documents/GitRepos/CPP_ECS/src/system/System.hpp

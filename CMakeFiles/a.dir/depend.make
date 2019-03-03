@@ -6,5 +6,8 @@ CMakeFiles/a.dir/src/main.cpp.o: src/component/Component.hpp
 CMakeFiles/a.dir/src/main.cpp.o: src/entity/Entity.cpp
 CMakeFiles/a.dir/src/main.cpp.o: src/entity/Entity.hpp
 CMakeFiles/a.dir/src/main.cpp.o: src/main.cpp
+CMakeFiles/a.dir/src/main.cpp.o: src/simulation/Simulation.cpp
+CMakeFiles/a.dir/src/main.cpp.o: src/simulation/Simulation.hpp
 CMakeFiles/a.dir/src/main.cpp.o: src/system/CompGroup.hpp
+CMakeFiles/a.dir/src/main.cpp.o: src/system/System.hpp
 

@@ -39,6 +39,8 @@ struct Vec3{
 
         Vec3 operator +(Vec3 v){return Vec3(x + v.x, y + v.y, z + v.z);}
 
+        // Vec3 operator +=(Vec3 v){return Vec3(x + v.x, y + v.y, z + v.z);}
+
         Vec3 operator -(Vec3 v){return Vec3(x - v.x, y - v.y, z - v.z);}
 
         Vec3 operator *(double v){return Vec3(x * v, y * v, z * v);}

@@ -12,6 +12,10 @@ std::vector<std::size_t> System::GetCompHashes(){
     return componentGroup->GetCompHashes();
 }
 
-void System::Tick(std::vector<std::vector<Component>> comps, unsigned int i){
+void System::Tick(
+    std::vector<std::map<std::size_t, std::shared_ptr<Component>>> comps, 
+    unsigned int i, 
+    double deltaTime){
+
     
 }
