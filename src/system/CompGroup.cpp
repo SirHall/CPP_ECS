@@ -21,3 +21,7 @@ unsigned int CompGroup::Size(){
 bool CompGroup::DoesEntityMatch(std::shared_ptr<Entity> entity){
     return entity->MatchesComponentPattern(compHashes);
 }
+
+std::vector<std::size_t> CompGroup::GetCompHashes(){
+    return compHashes;
+}

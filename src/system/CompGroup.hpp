@@ -17,6 +17,7 @@ class CompGroup{
         std::vector<std::shared_ptr<Component>> GetGroupAt(unsigned int i);
         unsigned int Size();
         bool DoesEntityMatch(std::shared_ptr<Entity> entity);
+        std::vector<std::size_t> GetCompHashes();
 };
 
 #endif
