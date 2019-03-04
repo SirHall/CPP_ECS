@@ -3,8 +3,8 @@
 
 #include <vector>
 #include <memory>
-#include "../component/Component.hpp"
-#include "../entity/Entity.hpp"
+#include "Component.hpp"
+#include "Entity.hpp"
 
 class CompGroup{
     private:

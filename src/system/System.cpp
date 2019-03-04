@@ -1,4 +1,5 @@
 #include "System.hpp"
+#include "CompGroup.hpp"
 
 System::System(){
     //Instantiate component group in child classes     
@@ -17,5 +18,5 @@ void System::Tick(
     unsigned int i, 
     double deltaTime){
 
-    
+        
 }

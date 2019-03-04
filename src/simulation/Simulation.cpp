@@ -4,7 +4,6 @@ Simulation::Simulation(std::vector<std::shared_ptr<System>> simSystems){
     for(unsigned int i = 0; i < simSystems.size(); i++)
         systems.push_back(simSystems.at(i));
     PopulatePool(100);
-
 }
 
 Simulation::~Simulation(){
@@ -35,6 +34,6 @@ void Simulation::PopulatePool(int count){
 
 void Simulation::Tick(double deltaTime){
     for(std::shared_ptr<System> system : systems){
-        system->Tick(, , deltaTime); // <--Continue here
+        // system->Tick(, , deltaTime); // <--Continue here
     }
 }

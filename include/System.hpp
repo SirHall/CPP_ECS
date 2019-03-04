@@ -6,7 +6,7 @@
 #include <memory>
 #include "CompGroup.hpp"
 
-#define GetCompAs(compCollection, index, type) \ 
+#define GetCompAs(compCollection, index, type) \
     (dynamic_pointer_cast<type> \
         (compCollection[index][typeid(type).hash_code()]))
 
@@ -17,7 +17,7 @@ class System{
         // std::vector<std::shared_ptr<>>
     public:
         System();
-        ~System();
+        virtual ~System();
         std::vector<std::size_t> GetCompHashes();
         void Tick(
             std::vector<std::map<std::size_t, 

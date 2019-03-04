@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wextra -Wpedantic
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/sirhall/Documents/GitRepos/CPP_ECS/src 
 

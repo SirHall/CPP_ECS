@@ -1,13 +1,13 @@
 #ifndef Component_hpp
 #define Component_hpp
 
-class Component
-{
+class Component{
+
 private:
     /* data */
 public:
     Component(/* args */);
-    ~Component();
+    virtual ~Component();
 };
 
 #endif

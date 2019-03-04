@@ -1,14 +1,15 @@
+#include "main.hpp"
 #include <iostream>
 #include <string>
-#include "component/Component.cpp"
-#include "entity/Entity.cpp"
-#include "simulation/Simulation.cpp"
+#include "Component.hpp"
+#include "Entity.hpp"
+#include "Simulation.hpp"
 #include <typeinfo>
 
-#include "systems/System_DeltaPosByVel.hpp"
-#include "system/CompGroup.hpp"
+#include "System_DeltaPosByVel.hpp"
+#include "CompGroup.hpp"
 
-int main(/*int argc, char* argv[]*/){
+int main(int argc, char* argv[]){
 	
 	std::unique_ptr<Simulation> simulation(new Simulation(
 		{std::shared_ptr<System_DeltaPosByVel>(new System_DeltaPosByVel())}

@@ -6,21 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/sirhall/Documents/GitRepos/CPP_ECS/src/component/Component.cpp
-Component.hpp
-/home/sirhall/Documents/GitRepos/CPP_ECS/src/component/Component.hpp
-iostream
--
-
 /home/sirhall/Documents/GitRepos/CPP_ECS/src/component/Component.hpp
 
-/home/sirhall/Documents/GitRepos/CPP_ECS/src/entity/Entity.cpp
-Entity.hpp
-/home/sirhall/Documents/GitRepos/CPP_ECS/src/entity/Entity.hpp
-typeinfo
--
-iostream
--
+/home/sirhall/Documents/GitRepos/CPP_ECS/src/components/Component_Position.hpp
+../component/Component.hpp
+/home/sirhall/Documents/GitRepos/CPP_ECS/src/component/Component.hpp
+../math/Vec3.hpp
+/home/sirhall/Documents/GitRepos/CPP_ECS/src/math/Vec3.hpp
+
+/home/sirhall/Documents/GitRepos/CPP_ECS/src/components/Component_Velocity.hpp
+../component/Component.hpp
+/home/sirhall/Documents/GitRepos/CPP_ECS/src/component/Component.hpp
+../math/Vec3.hpp
+/home/sirhall/Documents/GitRepos/CPP_ECS/src/math/Vec3.hpp
 
 /home/sirhall/Documents/GitRepos/CPP_ECS/src/entity/Entity.hpp
 vector
@@ -35,20 +33,22 @@ iostream
 -
 string
 -
-component/Component.cpp
-/home/sirhall/Documents/GitRepos/CPP_ECS/src/component/Component.cpp
-entity/Entity.cpp
-/home/sirhall/Documents/GitRepos/CPP_ECS/src/entity/Entity.cpp
-simulation/Simulation.cpp
-/home/sirhall/Documents/GitRepos/CPP_ECS/src/simulation/Simulation.cpp
+component/Component.hpp
+/home/sirhall/Documents/GitRepos/CPP_ECS/src/component/Component.hpp
+entity/Entity.hpp
+/home/sirhall/Documents/GitRepos/CPP_ECS/src/entity/Entity.hpp
+simulation/Simulation.hpp
+/home/sirhall/Documents/GitRepos/CPP_ECS/src/simulation/Simulation.hpp
 typeinfo
 -
+systems/System_DeltaPosByVel.hpp
+/home/sirhall/Documents/GitRepos/CPP_ECS/src/systems/System_DeltaPosByVel.hpp
 system/CompGroup.hpp
 /home/sirhall/Documents/GitRepos/CPP_ECS/src/system/CompGroup.hpp
 
-/home/sirhall/Documents/GitRepos/CPP_ECS/src/simulation/Simulation.cpp
-Simulation.hpp
-/home/sirhall/Documents/GitRepos/CPP_ECS/src/simulation/Simulation.hpp
+/home/sirhall/Documents/GitRepos/CPP_ECS/src/math/Vec3.hpp
+cmath
+-
 
 /home/sirhall/Documents/GitRepos/CPP_ECS/src/simulation/Simulation.hpp
 memory
@@ -70,6 +70,12 @@ memory
 ../entity/Entity.hpp
 /home/sirhall/Documents/GitRepos/CPP_ECS/src/entity/Entity.hpp
 
+/home/sirhall/Documents/GitRepos/CPP_ECS/src/system/System.cpp
+System.hpp
+/home/sirhall/Documents/GitRepos/CPP_ECS/src/system/System.hpp
+CompGroup.hpp
+/home/sirhall/Documents/GitRepos/CPP_ECS/src/system/CompGroup.hpp
+
 /home/sirhall/Documents/GitRepos/CPP_ECS/src/system/System.hpp
 vector
 -
@@ -79,4 +85,16 @@ memory
 -
 CompGroup.hpp
 /home/sirhall/Documents/GitRepos/CPP_ECS/src/system/CompGroup.hpp
+
+/home/sirhall/Documents/GitRepos/CPP_ECS/src/systems/System_DeltaPosByVel.hpp
+../system/System.cpp
+/home/sirhall/Documents/GitRepos/CPP_ECS/src/system/System.cpp
+../system/CompGroup.hpp
+/home/sirhall/Documents/GitRepos/CPP_ECS/src/system/CompGroup.hpp
+../components/Component_Position.hpp
+/home/sirhall/Documents/GitRepos/CPP_ECS/src/components/Component_Position.hpp
+../components/Component_Velocity.hpp
+/home/sirhall/Documents/GitRepos/CPP_ECS/src/components/Component_Velocity.hpp
+typeinfo
+-
 

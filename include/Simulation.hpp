@@ -3,8 +3,8 @@
 
 #include <memory>
 #include <vector>
-#include "../entity/Entity.hpp"
-#include "../system/System.hpp"
+#include "Entity.hpp"
+#include "System.hpp"
 
 class Simulation{
     private:
