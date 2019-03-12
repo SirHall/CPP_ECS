@@ -12,7 +12,7 @@
 
 class System{
     protected:
-        std::unique_ptr<CompGroup> componentGroup;
+        std::shared_ptr<CompGroup> componentGroup;
 
         // std::vector<std::shared_ptr<>>
     public:

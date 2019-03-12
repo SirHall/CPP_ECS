@@ -7,9 +7,9 @@ Simulation::Simulation(std::vector<std::shared_ptr<System>> simSystems){
 }
 
 Simulation::~Simulation(){
-    liveEntities.~vector();
-    entityPool.~vector();
-    systems.~vector();
+    liveEntities.clear();
+    entityPool.clear();
+    systems.clear();
 }
 
 void Simulation::Instantiate(std::vector<Component> components){

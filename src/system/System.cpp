@@ -6,7 +6,7 @@ System::System(){
 }
 
 System::~System(){
-    componentGroup.release();
+    // componentGroup.release();
 }
 
 std::vector<std::size_t> System::GetCompHashes(){

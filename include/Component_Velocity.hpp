@@ -10,7 +10,7 @@ class Component_Velocity : public Component{
     public:
         Component_Velocity();
 
-        Component_Velocity(double x = 0.0, double y = 0.0, double z = 0.0);
+        Component_Velocity(double x, double y, double z);
 
         Component_Velocity(Vec3 pos);
 

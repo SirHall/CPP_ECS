@@ -11,7 +11,7 @@ class Component_Position : public Component{
 
         Component_Position();
 
-        Component_Position(double x = 0.0, double y = 0.0, double z = 0.0);
+        Component_Position(double x, double y, double z);
 
         Component_Position(Vec3 pos);
 

@@ -1,10 +1,11 @@
 #include "System_DeltaPosByVel.hpp"
 
 System_DeltaPosByVel::System_DeltaPosByVel() : System(){
-    *componentGroup = CompGroup({
-        typeid(Component_Position).hash_code(),
-        typeid(Component_Velocity).hash_code(),
-    });
+    // componentGroup = 
+    // std::shared_ptr<Component>(new CompGroup({
+    //     typeid(Component_Position).hash_code(),
+    //     typeid(Component_Velocity).hash_code(),
+    // }));
 }
 
 System_DeltaPosByVel::~System_DeltaPosByVel(){
